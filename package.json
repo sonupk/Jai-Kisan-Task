@@ -1,0 +1,24 @@
+{
+  "name": "jai-kisan-task",
+  "version": "1.0.0",
+  "description": "related to card and customer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonupk/Jai-Kisan-Task.git"
+  },
+  "author": "Sonu Kamble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonupk/Jai-Kisan-Task/issues"
+  },
+  "homepage": "https://github.com/sonupk/Jai-Kisan-Task#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
