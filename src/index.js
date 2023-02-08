@@ -3,6 +3,8 @@ const route = require('./route/route.js');
 const  mongoose  = require('mongoose');
 const app = express();
 app.use(express.json());
+let port = process.env.PORT || 3000
+
 
 
 
@@ -17,6 +19,6 @@ mongoose.connect("mongodb+srv://sonupk:1HivF6DXHWanVcYu@cluster0.vtjazgb.mongodb
 app.use('/', route)
 
 
-app.listen(process.env.PORT || 3000, function () {
-    console.log('Express app running on port ' + (process.env.PORT || 3000))
-});
+app.listen(port,() => {
+    console.log(`express app running on port ${port}`);
+})
